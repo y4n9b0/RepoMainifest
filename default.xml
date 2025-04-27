@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest>
+    <remote name="origin" fetch="git@github.com:y4n9b0/" />
+
+    <default remote="origin" revision="refs/heads/master" sync-j="4" />
+
+    <project name="RepoBuildScript" path="buildScript" revision="refs/heads/master">
+        <linkfile dest="versions.toml" src="versions.toml" />
+        <linkfile dest="mvn-publish-catalog.gradle" src="mvn-publish-catalog.gradle" />
+        <linkfile dest="mvn-publish-lib.gradle" src="mvn-publish-lib.gradle" />
+        <linkfile dest="git-tag.gradle" src="git-tag.gradle" />
+        <linkfile dest="README.md" src="README.md" />
+        <linkfile dest="build.gradle" src="build.gradle" />
+        <linkfile dest="settings.gradle" src="settings.gradle" />
+        <linkfile dest="gradle.properties" src="gradle.properties" />
+        <linkfile dest="gradlew" src="gradlew" />
+        <linkfile dest="gradlew.bat" src="gradlew.bat" />
+        <linkfile dest="gradle/wrapper/gradle-wrapper.jar" src="gradle/wrapper/gradle-wrapper.jar" />
+        <linkfile dest="gradle/wrapper/gradle-wrapper.properties" src="gradle/wrapper/gradle-wrapper.properties" />
+    </project>
+    <project name="RepoLibUtil" path="util" revision="refs/heads/master" />
+    <project name="RepoLibWidget" path="widget" revision="refs/heads/master" />
+<!--    <project name="RepoLibDownload" path="download" revision="refs/heads/master" />-->
+<!--    <project name="RepoLibNet" path="net" revision="refs/heads/master" />-->
+<!--    <project name="RepoLibLogin" path="login" revision="refs/heads/master" />-->
+<!--    <project name="RepoLibShare" path="share" revision="refs/heads/master" />-->
+<!--    <project name="RepoLibPay" path="pay" revision="refs/heads/master" />-->
+<!--    <project name="RepoLibWeb" path="web" revision="refs/heads/master" />-->
+<!--    <project name="PicaLibTracker" path="tracker" revision="refs/heads/master" />-->
+</manifest>
